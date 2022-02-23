@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">
+        МАГАЗИН СУВЕНИРОВ
+    </h1>
+    <!-- <div class="card">
+        <img src="data:image/jpeg;base64,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" alt="" class="img_card">
+        <h1 class="title_card">
+           утюг
+        </h1>
+        <p class="price_card">
+           цена: 10 000 000$
+        </p>
+        <p class="count_card">
+         кол-во: 1
+        </p>
+        <p class="descripton_card">
+            описание: особенный утюг в единственном экземпляре, этот утюг делал великий мастер утюгов. Больше у этого утюга плюсов нет ¯\_(ツ)_/¯
+           </p>
+    </div> -->
+    <div class="card_field">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<div class="footer-wrap" id="footer-link">
+    <h1>КОНТАКТЫ</h1>
+    <div class="social-image">
+    <img src="photo/kisspng-telephone-mobile-phones-computer-icons-logo-telephone-5abd19eef31655.4326944315223423829957.jpg" alt="">
+    <p class="gf">
+        Телефон:
+        7-918-02-625-67
+
+    </div>
+    <p class="cop">© 2022 все права защищены</p>
+</div>      
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-wrap">
+            <div class="logo">
+            </div>
+            <nav class="top-nav">
+               <a href="#" class="nav-link">Главный</a>
+               <a href="#about-link" class="nav-link">Сувениры</a>
+               <a href="#footer-link" class="nav-link">Связь</a>
+            </nav>
+        </div>
+        <div class="header-wrap">
+             <p class="t"> 
+            СУВЕНИРЫ
+        </p>
+        <div class="arrow-7">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+      </div>
+      <div class="nav-link">
+          <p>test </p>
+      </div>
+    </header>
+    <div class="fixed-icon">
+    <a target="_blank" href="https://worldoftanks.ru/"><img src="image/logo.png" alt=""> </a>
+    </div>
+    <main>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer-wrap" id="footer-link">
+            <h1>КОНТАКТЫ</h1>
+            <div class="social-image">
+            <img src="photo/kisspng-telephone-mobile-phones-computer-icons-logo-telephone-5abd19eef31655.4326944315223423829957.jpg" alt="">
+            <p class="gf">
+                Телефон:
+                7918(--)(--)(---)
+            </p>
+            </div>
+            <p class="cop">© вк создателя https://vk.com/maks0125</p>
+        </div>      
+    </footer>
+</body>
+</html>  -->
